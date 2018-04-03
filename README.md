@@ -1,5 +1,3 @@
-# CS120_Final
-
 Team Name: 
 
 	Kerbal C++ Program??
@@ -31,8 +29,22 @@ Classes:
 
 Things to write to a file to save:
 
-•	Rocket Parts
-•	Rocket Location
+	Rocket Parts
+	Rocket Location
 
-Keyboard Keys:
+Keyboard/Mouse Input:
 
+Core Functionality:
+
+	Five classes listed above
+	Visuals of the rocket and planets to land on
+	File save method
+
+Extras:
+
+	Visuals – stars, other planets, etc.
+	Extra rocket parts
+
+Meeting times:
+
+	Meet in class, use email to communicate primarily.
