@@ -1,0 +1,23 @@
+
+CLASSES:
+
+Rocket
+private:
+	vector<RocketPart*> parts; (has-a)
+
+public: 
+	vector<RocketPart*> getParts();
+	void draw(double x, double y, double angle);
+	
+
+
+RocketPart (abstract)
+Methods: 
+	virtual draw(double x, double y, double angle) = 0;
+
+
+CommandModule: RocketPart
+FuelTank: RocketPart
+Thruster: RocketPart
+
+
