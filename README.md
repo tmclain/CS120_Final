@@ -37,6 +37,14 @@ Classes:
 		virtual draw(double x, double y, double angle) = 0;
 
 	CommandModule: RocketPart
+	private:
+		double drag;
+		double responsiveness;
+	public:
+		double getDrag() const;
+		double getResponsiveness() const;
+		void setDrag();
+		void setResponsiveness();
 	
 	FuelTank: RocketPart
 	private:
