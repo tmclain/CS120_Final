@@ -10,14 +10,16 @@ Members:
 
 Classes:
 
+	struct Position
+
 	Rocket
 	private:
 		vector<RocketPart*> parts; (has-a)
-		double position;
+		Position p;
 		double thrust;
 	public:
-		getPosition();
-		getThrust()
+		Position getPosition();
+		double getThrust()
 		setPosition();
 		setThrust();
 		vector<RocketPart*> getParts();
@@ -28,10 +30,10 @@ Classes:
 		double Mass;
 		double Length;
 	public:
-		getMass();
-		getLength();
-		setMass();
-		setLength();
+		double getMass();
+		double getLength();
+		void setMass();
+		void setLength();
 		virtual draw(double x, double y, double angle) = 0;
 
 	CommandModule: RocketPart
