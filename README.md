@@ -68,6 +68,12 @@ Classes:
 		
 	DrawEndScreen
 		//Creates end screen
+	
+	SaveWorld
+		//Saves necessary data
+	
+	LoadWorld
+		//Loads necessary data
 
 Things to write to a file to save:
 
