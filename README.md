@@ -13,43 +13,32 @@ Classes:
 	Rocket
 	private:
 		vector<RocketPart*> parts; (has-a)
+		double position;
+		double thrust;
 	public:
+		getPosition();
+		getThrust()
+		setPosition();
+		setThrust();
 		vector<RocketPart*> getParts();
 		void draw(double x, double y, double angle);
 
 	RocketPart (Abstract)
-	Methods:
+	private:
+		double Mass;
+		double Length;
+	public:
+		getMass();
+		getLength();
+		setMass();
+		setLength();
 		virtual draw(double x, double y, double angle) = 0;
 
 	CommandModule: RocketPart
-	private:
-		Mass
-		Length
-	public:
-		getMass
-		getLength
-		setMass
-		setLength
-
+	
 	FuelTank: RocketPart
-	private:
-		Mass
-		Length
-	public:
-		getMass
-		getLength
-		setMass
-		setLength
 
 	Thruster: RocketPart
-	private:
-		Mass
-		Length
-	public:
-		getMass
-		getLength
-		setMass
-		setLength
 	
 	DrawWorld
 		//Creates environment
