@@ -31,8 +31,12 @@ Things to write to a file to save:
 
 	Rocket Parts
 	Rocket Location
+	Motion
 
 Keyboard/Mouse Input:
+
+	Keyboard: Thrusters, Steering
+	Mouse: Rocket assembly, Main Menu
 
 Core Functionality:
 
@@ -48,3 +52,7 @@ Extras:
 Meeting times:
 
 	Meet in class, use email to communicate primarily.
+	Tyler: Mechanics of flight
+	Eliot: Rocket Building
+	Luke: Environment, Main Menu
+	Everyone: Testing
