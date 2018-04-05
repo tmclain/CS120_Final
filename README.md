@@ -1,6 +1,6 @@
 Team Name: 
 
-	Kerbal C++ Program??
+	Rocketmen
 
 Members:
 
@@ -18,8 +18,8 @@ Classes:
 		Position p;
 		double thrust;
 	public:
-		Position getPosition();
-		double getThrust()
+		Position getPosition() const;
+		double getThrust() const;
 		setPosition();
 		setThrust();
 		vector<RocketPart*> getParts();
@@ -30,8 +30,8 @@ Classes:
 		double Mass;
 		double Length;
 	public:
-		double getMass();
-		double getLength();
+		double getMass() const;
+		double getLength() const;
 		void setMass();
 		void setLength();
 		virtual draw(double x, double y, double angle) = 0;
@@ -39,8 +39,18 @@ Classes:
 	CommandModule: RocketPart
 	
 	FuelTank: RocketPart
+	private:
+		double fuel;
+	public:
+		double getFuel() const;
+		void setFuel();
 
 	Thruster: RocketPart
+	private:
+		double thrust;
+	public:
+		double getThrust() const;
+		void setThrust();
 	
 	DrawWorld
 		//Creates environment
