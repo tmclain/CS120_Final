@@ -7,6 +7,7 @@ Members:
 	Tyler Mclain
 	Eliot Heinrich
 	Luke Beatty
+	Evan Fisher
 
 Classes:
 
@@ -103,4 +104,5 @@ Meeting times:
 	Tyler: Mechanics of flight
 	Eliot: Rocket Building
 	Luke: Environment, Main Menu
+	Evan: Undetermined
 	Everyone: Testing
