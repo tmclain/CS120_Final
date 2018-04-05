@@ -22,10 +22,43 @@ Classes:
 		virtual draw(double x, double y, double angle) = 0;
 
 	CommandModule: RocketPart
+	private:
+		Mass
+		Length
+	public:
+		getMass
+		getLength
+		setMass
+		setLength
 
 	FuelTank: RocketPart
+	private:
+		Mass
+		Length
+	public:
+		getMass
+		getLength
+		setMass
+		setLength
 
 	Thruster: RocketPart
+	private:
+		Mass
+		Length
+	public:
+		getMass
+		getLength
+		setMass
+		setLength
+	
+	DrawWorld
+		//Creates environment
+	
+	DrawStartScreen
+		//Creates start screen
+		
+	DrawEndScreen
+		//Creates end screen
 
 Things to write to a file to save:
 
